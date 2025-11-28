@@ -8,11 +8,11 @@
         <Label Content="Quantity:" HorizontalAlignment="Left" Height="30" Margin="48,113,0,0" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.371,0.498"/>
         <Label Content="Total Payment $:" HorizontalAlignment="Left" Height="30" Margin="46,160,0,0" VerticalAlignment="Top" Width="96"/>
         <TextBlock Name="totalPaymentTextBlock" HorizontalAlignment="Left" Height="23" Margin="164,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
-        <StackPanel>
 
-        </StackPanel>
-        <Label Content="Total charge after adding the delivery charger ($25)" Margin="1,200,186,67"/>
-        <TextBlock x:Name="totalChargeTextBox" Margin="10,251,280,41"/>
+        <Label Content="Total charge after adding the delivery charge ($25)" Margin="1,189,186,78"/>
+        <TextBlock x:Name="totalChargeTextBox" Margin="10,214,280,78"/>
+        <Label Content="Total charge after adding the wrap charge ($5)" Margin="0,248,187,19"/>
+        <TextBlock x:Name="totalChargeWrapTextBox" Margin="10,269,280,23"/>
 
 
         <TextBox Name="productTextBox" HorizontalAlignment="Left" Height="24" Margin="122,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
